@@ -1,0 +1,294 @@
+<title>coPlanable — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #FBFAF7;
+    --surface: #FFFFFF;
+    --ink: #2A2A27;
+    --muted: #6E6A61;
+    --faint: #928D82;
+    --rule: #EAE5DB;
+    --rule-strong: #DAD3C6;
+    --accent: #5B63E8;
+    --accent-soft: #EEF0FD;
+    --gold: #C79A62;
+    --maxw: 44rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16161A;
+      --surface: #1D1D22;
+      --ink: #E9E6DF;
+      --muted: #A29E94;
+      --faint: #807B72;
+      --rule: #2A2A31;
+      --rule-strong: #35353D;
+      --accent: #939AF2;
+      --accent-soft: #21222E;
+      --gold: #D4A574;
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #FBFAF7; --surface: #FFFFFF; --ink: #2A2A27; --muted: #6E6A61; --faint: #928D82;
+    --rule: #EAE5DB; --rule-strong: #DAD3C6; --accent: #5B63E8; --accent-soft: #EEF0FD; --gold: #C79A62;
+  }
+  :root[data-theme="dark"] {
+    --bg: #16161A; --surface: #1D1D22; --ink: #E9E6DF; --muted: #A29E94; --faint: #807B72;
+    --rule: #2A2A31; --rule-strong: #35353D; --accent: #939AF2; --accent-soft: #21222E; --gold: #D4A574;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  .wrap { max-width: var(--maxw); margin: 0 auto; padding: clamp(1.25rem, 4vw, 3rem) clamp(1.1rem, 4vw, 2rem) 5rem; }
+
+  /* Masthead */
+  header { padding-top: 1rem; }
+  .brand {
+    display: inline-flex; align-items: baseline; gap: .5rem;
+    font-family: Georgia, "Iowan Old Style", Palatino, serif;
+    font-weight: 600; font-size: 1.35rem; letter-spacing: -0.01em; color: var(--ink);
+  }
+  .brand .dot { width: .5rem; height: .5rem; border-radius: 50%; background: var(--gold); transform: translateY(-.05em); }
+  .eyebrow {
+    margin: 2.2rem 0 .35rem; font-size: .72rem; font-weight: 700; letter-spacing: .14em;
+    text-transform: uppercase; color: var(--accent);
+  }
+  h1 {
+    font-family: Georgia, "Iowan Old Style", Palatino, serif;
+    font-weight: 600; font-size: clamp(2rem, 6vw, 2.9rem); line-height: 1.1;
+    letter-spacing: -0.02em; margin: 0 0 .6rem; text-wrap: balance;
+  }
+  .updated { color: var(--muted); font-size: .92rem; margin: 0; }
+
+  .callout {
+    margin: 1.8rem 0 0; padding: .9rem 1.1rem; background: var(--accent-soft);
+    border: 1px solid var(--rule); border-left: 3px solid var(--accent); border-radius: 8px;
+    color: var(--ink); font-size: .95rem;
+  }
+
+  .lede { font-size: 1.08rem; color: var(--ink); margin: 1.6rem 0 0; }
+
+  hr.div { border: 0; border-top: 1px solid var(--rule); margin: 2.4rem 0; }
+
+  /* Table of contents */
+  nav.toc {
+    margin: 2rem 0 0; padding: 1.1rem 1.25rem; border: 1px solid var(--rule);
+    border-radius: 10px; background: var(--surface);
+  }
+  nav.toc h2 { font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: var(--faint); margin: 0 0 .7rem; font-weight: 700; }
+  nav.toc ol { margin: 0; padding: 0; list-style: none; columns: 2; column-gap: 1.5rem; }
+  @media (max-width: 34rem) { nav.toc ol { columns: 1; } }
+  nav.toc li { counter-increment: toc; font-size: .93rem; margin: .18rem 0; break-inside: avoid; }
+  nav.toc a { color: var(--muted); text-decoration: none; display: flex; gap: .55rem; }
+  nav.toc a:hover { color: var(--accent); }
+  nav.toc a .n { color: var(--faint); font-variant-numeric: tabular-nums; min-width: 1.2em; }
+
+  section { margin-top: 2.6rem; scroll-margin-top: 1rem; }
+  h2.sec {
+    font-family: Georgia, "Iowan Old Style", Palatino, serif;
+    font-size: 1.4rem; font-weight: 600; letter-spacing: -0.01em; line-height: 1.25;
+    margin: 0 0 .5rem; display: flex; gap: .7rem; align-items: baseline; text-wrap: balance;
+  }
+  h2.sec .num {
+    font-family: -apple-system, sans-serif; font-size: .8rem; font-weight: 700;
+    color: var(--gold); font-variant-numeric: tabular-nums; letter-spacing: .02em;
+    padding-top: .15em;
+  }
+  h3 { font-size: 1rem; font-weight: 700; margin: 1.5rem 0 .3rem; color: var(--ink); }
+  p { margin: .7rem 0; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  strong { font-weight: 700; color: var(--ink); }
+
+  ul { margin: .6rem 0; padding-left: 1.15rem; }
+  li { margin: .45rem 0; }
+  li::marker { color: var(--gold); }
+
+  /* Providers table */
+  .tablewrap { overflow-x: auto; margin: 1rem 0; border: 1px solid var(--rule); border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; min-width: 30rem; font-size: .93rem; }
+  caption { text-align: left; }
+  th, td { text-align: left; padding: .7rem .9rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  thead th { font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); font-weight: 700; background: var(--surface); }
+  tbody tr:last-child td { border-bottom: 0; }
+  td strong { white-space: nowrap; }
+
+  footer { margin-top: 3.5rem; padding-top: 1.4rem; border-top: 1px solid var(--rule-strong); color: var(--muted); font-size: .9rem; }
+  footer .contact { color: var(--ink); font-weight: 600; }
+  .disclaimer { font-size: .82rem; color: var(--faint); font-style: italic; margin-top: 1.2rem; line-height: 1.6; }
+
+  a:focus-visible, nav.toc a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="brand"><span class="dot"></span>coPlanable</div>
+    <p class="eyebrow">Legal</p>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: July 7, 2026</p>
+  </header>
+
+  <p class="lede">
+    coPlanable (“coPlanable,” “we,” “us,” or “our”) provides a mobile app that helps you plan events —
+    weddings, vacations, birthdays, and other gatherings — with planners, budgets, guest lists, seating,
+    vendors, and itineraries (the “App”). This policy explains what we collect, how we use it, who we share
+    it with, and the choices you have. By creating an account or using the App, you agree to this policy.
+  </p>
+
+  <div class="callout">
+    coPlanable is currently in a testing phase. Features and data practices may change; we will update this
+    policy and the “Last updated” date when they do.
+  </div>
+
+  <nav class="toc" aria-label="Contents">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#s1"><span class="n">1</span> Information we collect</a></li>
+      <li><a href="#s2"><span class="n">2</span> How we use it</a></li>
+      <li><a href="#s3"><span class="n">3</span> Where it’s stored</a></li>
+      <li><a href="#s4"><span class="n">4</span> Third-party services</a></li>
+      <li><a href="#s5"><span class="n">5</span> How we share</a></li>
+      <li><a href="#s6"><span class="n">6</span> Retention &amp; deletion</a></li>
+      <li><a href="#s7"><span class="n">7</span> Other people’s info</a></li>
+      <li><a href="#s8"><span class="n">8</span> Security</a></li>
+      <li><a href="#s9"><span class="n">9</span> Children’s privacy</a></li>
+      <li><a href="#s10"><span class="n">10</span> Your rights</a></li>
+      <li><a href="#s11"><span class="n">11</span> International users</a></li>
+      <li><a href="#s12"><span class="n">12</span> Changes</a></li>
+      <li><a href="#s13"><span class="n">13</span> Contact us</a></li>
+    </ol>
+  </nav>
+
+  <section id="s1">
+    <h2 class="sec"><span class="num">01</span> Information we collect</h2>
+    <h3>Information you provide directly</h3>
+    <ul>
+      <li><strong>Account information</strong> — your name, email, and password when you sign up. If you use “Sign in with Google,” we receive your name, email, and basic profile from Google. Passwords are stored in hashed form by our authentication provider; we never see your raw password.</li>
+      <li><strong>Event and project content</strong> — event names, types, dates, locations, budgets and expenses, tasks and notes, vendors, and itineraries you create.</li>
+      <li><strong>Guest information</strong> — details you enter about guests, which may include names, emails, phone numbers, RSVP status, dietary restrictions, and seating. This may be personal information about <strong>other people</strong> (see Section 7).</li>
+      <li><strong>Collaborator invitations</strong> — when you invite someone to a project, we process the invite code and the email/name of the person you invite so they can join.</li>
+      <li><strong>Feedback</strong> — any messages or bug reports you choose to send us in the App, delivered to our team (via Discord) so we can respond and improve.</li>
+    </ul>
+    <h3>Information collected automatically</h3>
+    <ul>
+      <li><strong>Usage &amp; analytics</strong> — how you interact with the App (such as screens viewed and features used), via our analytics provider (PostHog), to help us improve it.</li>
+      <li><strong>Diagnostics &amp; crash data</strong> — when an error occurs, we collect error messages, stack traces, and basic device information (device model, OS and version, app version) to diagnose and fix problems.</li>
+    </ul>
+    <h3>Device permissions</h3>
+    <ul>
+      <li><strong>Contacts</strong> — with your permission, the App can access your device contacts so you can quickly add people to a guest list. When you select a contact, the details you choose are saved as a guest entry. We do <strong>not</strong> upload your entire address book to build advertising or marketing profiles. You can deny or revoke this permission any time in your device settings, and the rest of the App keeps working.</li>
+    </ul>
+    <p>We do <strong>not</strong> collect precise device location, and we do <strong>not</strong> serve advertising in the App.</p>
+  </section>
+
+  <section id="s2">
+    <h2 class="sec"><span class="num">02</span> How we use your information</h2>
+    <ul>
+      <li>create and secure your account and authenticate you;</li>
+      <li>provide and operate the App’s features (planners, budgets, guest lists, vendors, itineraries);</li>
+      <li>enable collaboration when you invite others to a project;</li>
+      <li>respond to your feedback and support requests;</li>
+      <li>understand usage and improve performance, reliability, and features;</li>
+      <li>detect, prevent, and fix technical problems, fraud, and abuse; and</li>
+      <li>comply with legal obligations.</li>
+    </ul>
+  </section>
+
+  <section id="s3">
+    <h2 class="sec"><span class="num">03</span> Where your information is stored</h2>
+    <ul>
+      <li><strong>On your device</strong> — most project content (tasks, budgets, guest lists, vendors, itineraries) is stored locally on your device. If you uninstall the App, this local data is deleted from your device.</li>
+      <li><strong>In the cloud</strong> — account information, collaborator records, and certain activity records are stored with our backend provider, Supabase, to support sign-in and collaboration.</li>
+      <li><strong>With service providers</strong> — analytics and diagnostics data are stored with PostHog.</li>
+    </ul>
+    <p>Because core project data is stored on your device, it may not automatically be available on another device or after you reinstall the App. Please keep this in mind before uninstalling.</p>
+  </section>
+
+  <section id="s4">
+    <h2 class="sec"><span class="num">04</span> Third-party services</h2>
+    <p>We rely on the following providers, each with its own privacy policy, and share information with them only as needed to operate the App:</p>
+    <div class="tablewrap">
+      <table>
+        <thead>
+          <tr><th scope="col">Provider</th><th scope="col">Purpose</th><th scope="col">Privacy policy</th></tr>
+        </thead>
+        <tbody>
+          <tr><td><strong>Supabase</strong></td><td>Authentication &amp; cloud database</td><td><a href="https://supabase.com/privacy">supabase.com/privacy</a></td></tr>
+          <tr><td><strong>Google</strong></td><td>Optional “Sign in with Google”</td><td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td></tr>
+          <tr><td><strong>PostHog</strong></td><td>Product analytics &amp; error reporting</td><td><a href="https://posthog.com/privacy">posthog.com/privacy</a></td></tr>
+          <tr><td><strong>Discord</strong></td><td>Delivery of in-app feedback you send us</td><td><a href="https://discord.com/privacy">discord.com/privacy</a></td></tr>
+          <tr><td><strong>Expo / EAS</strong></td><td>App build &amp; delivery infrastructure</td><td><a href="https://expo.dev/privacy">expo.dev/privacy</a></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="s5">
+    <h2 class="sec"><span class="num">05</span> How we share information</h2>
+    <ul>
+      <li><strong>We do not sell your personal information.</strong></li>
+      <li><strong>Collaborators</strong> — if you invite others to a project, information in that project (such as tasks and guest details) is visible to the collaborators you invite.</li>
+      <li><strong>Service providers</strong> — we share information with the processors in Section 4 to run the App.</li>
+      <li><strong>Legal reasons</strong> — we may disclose information if required by law, or to protect the rights, safety, or property of our users, the public, or us.</li>
+    </ul>
+  </section>
+
+  <section id="s6">
+    <h2 class="sec"><span class="num">06</span> Data retention and deletion</h2>
+    <ul>
+      <li><strong>Local data</strong> is removed from your device when you uninstall the App or clear its data.</li>
+      <li><strong>Cloud data</strong> (account and related records) is retained while your account is active.</li>
+      <li><strong>Deleting your data</strong> — you can request deletion of your account and associated cloud data by emailing us (Section 13). We process verified requests within a reasonable time, subject to any legal retention requirements.</li>
+    </ul>
+  </section>
+
+  <section id="s7">
+    <h2 class="sec"><span class="num">07</span> Information about other people</h2>
+    <p>The App lets you store information about other people, such as guests and collaborators. <strong>You are responsible for ensuring you have the appropriate permission or legal basis to add and store another person’s information</strong> (for example, their email, phone number, or dietary restrictions). Please only add information you are authorized to use, and share project access responsibly.</p>
+  </section>
+
+  <section id="s8">
+    <h2 class="sec"><span class="num">08</span> Security</h2>
+    <p>We use reasonable technical and organizational measures to protect your information, including encrypted connections (HTTPS) to our providers and the access controls offered by Supabase. However, no method of transmission or storage is completely secure, and we cannot guarantee absolute security.</p>
+  </section>
+
+  <section id="s9">
+    <h2 class="sec"><span class="num">09</span> Children’s privacy</h2>
+    <p>The App is intended for adults planning events and is <strong>not directed to children under 13</strong> (or the minimum age of digital consent in your jurisdiction). We do not knowingly collect personal information from children. If you believe a child has provided us personal information, please contact us and we will delete it.</p>
+  </section>
+
+  <section id="s10">
+    <h2 class="sec"><span class="num">10</span> Your rights and choices</h2>
+    <p>Depending on where you live, you may have rights to access, correct, delete, or restrict the use of your personal information, and to withdraw consent (for example, revoking contacts access in your device settings). To exercise these rights, email us at <a href="mailto:info@coplanable.com">info@coplanable.com</a>. We respond consistent with applicable law (such as the GDPR and CCPA/CPRA where they apply).</p>
+  </section>
+
+  <section id="s11">
+    <h2 class="sec"><span class="num">11</span> International users</h2>
+    <p>We and our service providers may store and process your information in countries other than your own, including the United States. Where required, we take steps to protect your information consistent with this policy and applicable law.</p>
+  </section>
+
+  <section id="s12">
+    <h2 class="sec"><span class="num">12</span> Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we do, we will revise the “Last updated” date above and, where appropriate, provide additional notice in the App.</p>
+  </section>
+
+  <section id="s13">
+    <h2 class="sec"><span class="num">13</span> Contact us</h2>
+    <p>If you have questions about this policy or how we handle your information, contact us:</p>
+    <p class="contact">coPlanable · <a href="mailto:info@coplanable.com">info@coplanable.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2026 coPlanable. All rights reserved.</p>
+    <p class="disclaimer">This document is a plain-language privacy policy for the coPlanable app and is not legal advice. Before a public launch, consider having it reviewed by a qualified professional and updating the developer/legal entity name, contact email, and jurisdiction-specific sections to match your situation.</p>
+  </footer>
+</div>
